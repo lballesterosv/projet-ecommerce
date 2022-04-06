@@ -10,11 +10,16 @@ body {
 span {
   color: #E01E64;
   font-family: 'Nerko One', cursive;
-  font-size: 30px;
+  font-size: 32px;
 }
 
 img {
-  margin: 30px;
+  margin: 1px 30px 1px;
+}
+
+p {
+  margin: 15px 50px;
+  text-align: center;
 }
 
 /* navigation supérieure */
@@ -39,7 +44,7 @@ img {
 
 .topnav a.logo {
   font-family: 'Nerko One', cursive;
-  font-size: 56px;
+  font-size: 50px;
 }
 
 .topnav-centered a {
@@ -59,43 +64,43 @@ img {
 .header {
   /* border: 2px solid white; */
   padding: 15px;
-  margin: 5px 45px;
+  margin: 5px 100px;
   text-align: center;
   color: #121212;
 }
 
 h1 {
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 28px;
+  font-weight: normal;
 }
 
 h2 {
   font-size: 26px;
   font-weight: bold;
-  margin-top: 0;
+  margin: 5px 100px 30px;
 }
 
 h3 {
   font-size: 16px;
   font-weight: bold;
-  margin-bottom: 0;
+  margin: 90px 100px 0px;
 }
 
 .nouveautes {
   display: flex;
   /* border: 2px solid white; */
   padding: 15px;
-  margin: 5px 45px;
+  margin: 30px 100px;
   text-align: center;
   color: #121212;
   font-size: 18px;
 }
 
-section {
-  /* padding: 15px; */
-  margin: 45px;
-}
-
 .trois_img {
   display: flex;
+  margin: 5px 75px;
+}
+
+#alacanelle {
+  margin-left: 250px;
 }
