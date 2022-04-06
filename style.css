@@ -4,9 +4,24 @@ body {
   color: #121212;
   font-family: 'Poppins', sans-serif;
   font-size: 18px;
+  font-weight: normal;
+}
+
+span {
+  color: #E01E64;
+  font-family: 'Nerko One', cursive;
+  font-size: 30px;
+}
+
+img {
+  margin: 30px;
 }
 
 /* navigation supérieure */
+
+#lien_produits {
+  color: #E01E64;
+}
 
 .topnav {
   padding: 30px;
@@ -51,7 +66,19 @@ body {
 
 h1 {
   font-size: 30px;
-  font-weight: normal;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0;
 }
 
 .nouveautes {
@@ -62,4 +89,13 @@ h1 {
   text-align: center;
   color: #121212;
   font-size: 18px;
+}
+
+section {
+  /* padding: 15px; */
+  margin: 45px;
+}
+
+.trois_img {
+  display: flex;
 }
