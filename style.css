@@ -1,35 +1,65 @@
 body {
-    background-color: #f9f5f1;
-    color: #121212;
-    font-family: 'Poppins', sans-serif;
-    text-decoration: none;
-    margin-left: auto;
-    margin-right: auto;
+  margin: 0;
+  background-color: #f9f5f1;
+  color: #121212;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
 }
 
-#logo {
-    font-family: 'Nerko One', cursive;
-    font-size: 52px;
-    margin-left: auto;
-    margin-right: auto;
+/* navigation supérieure */
+
+.topnav {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
 }
 
-#navigation {
-    display: flex;
+.topnav a {
+  float: left;
+  color: #121212;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-a {
-    color: #121212;
-    text-decoration: none;
-    font-size: 16px;
+.topnav a.logo {
+  font-family: 'Nerko One', cursive;
+  font-size: 56px;
 }
 
-ul {
-    list-style-type: none;
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
+.topnav-right {
+  float: right;
+}
 
+/* Header/image principale */
 
-p {
-    font-size: 24px;
+.header {
+  /* border: 2px solid white; */
+  padding: 15px;
+  margin: 5px 45px;
+  text-align: center;
+  color: #121212;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.nouveautes {
+  display: flex;
+  /* border: 2px solid white; */
+  padding: 15px;
+  margin: 5px 45px;
+  text-align: center;
+  color: #121212;
+  font-size: 18px;
 }
