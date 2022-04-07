@@ -18,8 +18,7 @@ img {
 }
 
 #canelle_desc {
-  margin: 15px 50px;
-  text-align: center;
+  margin-left: 100px;
 }
 
 /* navigation supérieure */
@@ -48,7 +47,7 @@ img {
 
 .topnav a.logo {
   font-family: 'Sniglet', cursive;
-  font-size: 50px;
+  font-size: 55px;
 }
 
 .topnav-centered a {
