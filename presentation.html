@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil</title>
+    <title>Presentation</title>
 
     <!-- ajout image favicon -->
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
@@ -31,18 +31,18 @@
 
         <!-- lien centré: Logo -->
         <div class="topnav-centered">
-            <a href="#accueil" class="logo">La Biscuiterie</a>
+            <a href="accueil.html" class="logo">La Biscuiterie</a>
         </div>
 
         <!-- Liens alignés à gauche (par défaut) -->
-        <a href="#.html" id="rose">Produits</a>
-        <a href="#.html">À propos</a>
-        <a href="#.html">Local</a>
-        <a href="#.html">Contact</a>
+        <a href="produits.html" id="rose">Produits</a>
+        <a href="presentation.html">À propos</a>
+        <a href="local.html">Local</a>
+        <a href="contact.html">Contact</a>
 
         <!-- Lien aligné à droite -->
         <div class="topnav-right">
-            <a href="#.html">Compte</a>
+            <a href="compte.html">Compte</a>
         </div>
 
     </div>
@@ -53,7 +53,7 @@
         <img src="img/banner2.jpg" alt="biscuits au chocolat" width="1000" height="565">
     </div>
 
-    <!--==== Section des rabais ====-->
+    <!--====  Descriptif général ainsi que l’historique de l’entreprise ====-->
     <section>
         <h3>Délectez-vous du cadeau parfait</h3>
         <h2>Fabriqué avec amour à <span>Montréal</span>, Québec, Canada</h2>
@@ -73,60 +73,89 @@
         </p>
     </section>
 
-    <h3>TRAVAIL EN ÉQUIPE</h3>
-    <h2>La Biscuiterie est présente sur Internet grâce au travail d'équipe des <span>développeurs</span>
-        suivants :
+    <!--====  présentation des personnes qui développe le site web ====-->
+    <section>
+        <h3>TRAVAIL EN ÉQUIPE</h3>
+        <h2>La Biscuiterie est présente sur Internet grâce au travail d'équipe des <span>développeurs</span>
+            suivants :
+            <div id="equipe">
 
-        <div class="membre">
-            <img src="img/ginger2.jpg" alt="André Luis Nascimento" width="100" height="100">
-            <h4>André Luis Nascimento</h4>
-            <a href="#" class="liens_membres">Email</a><br>
-            <a href="#" class="liens_membres">LinkedIn</a><br>
-            <a href="#" class="liens_membres">GitHub</a>
+                <div class="membre">
+                    <img src="img/ginger2.jpg" alt="André Luis Nascimento" width="100" height="100">
+                    <h4>André Luis Nascimento</h4>
+                    <a href="#" class="liens_membres">Email</a><br>
+                    <a href="#" class="liens_membres">LinkedIn</a><br>
+                    <a href="#" class="liens_membres">GitHub</a>
+                </div>
 
-        </div>
+                <div class="membre">
+                    <img src="img/ginger2.jpg" alt="Laura Ballesteros" width="100" height="100">
+                    <h4>Laura Ballesteros</h4>
+                    <a href="#" class="liens_membres">Email</a><br>
+                    <a href="#" class="liens_membres">LinkedIn</a><br>
+                    <a href="#" class="liens_membres">GitHub</a>
+                </div>
 
-        <!-- ==== Footer ==== -->
-        <footer class="footer">
-            <div id="footertext">
-                <table>
-                    <tr>
-                        <th>
-                            <ul class="footer-links">
-                                <li><a href="#accueil.html">Accueil</a></li><br>
-                                <li><a href="#produits.html">Produits</a></li><br>
-                                <li><a href="#apropos.html">À<span id="onoir">o</span>propos</a></li><br>
-                            </ul>
-                        </th>
-                        <th>
-                            <ul class="footer-links">
-                                <li><a href="#local.html">Local</a></li><br>
-                                <li><a href="#contact.html">Contact</a></li><br>
-                                <li><a href="#compte.html">Compte</a></li><br>
-                            </ul>
-                        </th>
+                <div class="membre">
+                    <img src="img/ginger2.jpg" alt="Mohamed Essam Mohamed Elsheimy" width="100" height="100">
+                    <h4>Mohamed Essam Mohamed Elsheimy</h4>
+                    <a href="#" class="liens_membres">Email</a><br>
+                    <a href="#" class="liens_membres">LinkedIn</a><br>
+                    <a href="#" class="liens_membres">GitHub</a>
+                </div>
 
-                        <th>
-                            <div>
-                                <p> OBTENEZ DES NOUVELLES SUR LES BISCUITS, LES OFFRES ET PLUS ENCORE ! </p>
-                                <p id="email"> Entrez votre email ici 🡪 </p>
-                                <p class="Copyright-text" id="pdc">Politique de confidentialité</p>
-                            </div>
-                        </th>
-                        <th>
-                            <ul class="footer-links">
-                                <li><a href="#tweeter.html">Tweeter</a></li><br>
-                                <li><a href="#instagram.html">Instagram</a></li><br>
-                                <li><a href="#facebook.html">Facebook</a>
-                                </li><br>
-                            </ul>
-                    </tr>
-                </table>
-                <hr>
-                <p class="Copyright-text"> &copy; La Biscuiterie 2022 Tous droits réservés.</p>
+                <div class="membre">
+                    <img src="img/ginger2.jpg" alt="Ernesto Garcia Farinas" width="100" height="100">
+                    <h4>Ernesto Garcia Farinas</h4>
+                    <a href="#" class="liens_membres">Email</a><br>
+                    <a href="#" class="liens_membres">LinkedIn</a><br>
+                    <a href="#" class="liens_membres">GitHub</a>
+                </div>
 
             </div>
-        </footer>
+    </section>
+
+    <!-- ==== Footer ==== -->
+    <footer class="footer">
+        <div id="footertext">
+            <table>
+                <tr>
+                    <th>
+                        <ul class="footer-links">
+                            <li><a href="accueil.html">Accueil</a></li><br>
+                            <li><a href="produits.html">Produits</a></li><br>
+                            <li><a href="presentation.html">À<span id="onoir">o</span>propos</a></li><br>
+                        </ul>
+                    </th>
+                    <th>
+                        <ul class="footer-links">
+                            <li><a href="local.html">Local</a></li><br>
+                            <li><a href="contact.html">Contact</a></li><br>
+                            <li><a href="compte.html">Compte</a></li><br>
+                        </ul>
+                    </th>
+
+                    <th>
+                        <div>
+                            <p> OBTENEZ DES NOUVELLES SUR LES BISCUITS, LES OFFRES ET PLUS ENCORE ! </p>
+                            <p id="email"> Entrez votre email ici 🡪 </p>
+                            <p class="Copyright-text" id="pdc">Politique de confidentialité</p>
+                        </div>
+                    </th>
+                    <th>
+                        <ul class="footer-links">
+                            <li><a href="#tweeter">Tweeter</a></li><br>
+                            <li><a href="#instagram">Instagram</a></li><br>
+                            <li><a href="#facebook">Facebook</a>
+                            </li><br>
+                        </ul>
+                </tr>
+            </table>
+            <hr>
+            <p class="Copyright-text"> &copy; La Biscuiterie 2022 Tous droits réservés.</p>
+
+        </div>
+    </footer>
 
 </body>
 
