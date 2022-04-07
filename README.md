@@ -1,5 +1,5 @@
 # projet-ecommerce
-Site web e-commerce qui présente votre domaine d’activités (alimentation). Ce site comprendra 
+Site web e-commerce qui présente un domaine d’activités (alimentation). Ce site comprendra 
 pages d'Accueil, produits, présentation, local, contact, compte et inscription.
 
 Exigences:
