@@ -73,29 +73,44 @@ h1 {
     font-weight: normal;
 }
 
-#texte {
-    margin: 25px 100px 25px;
-    text-align: justify;
-}
-
 /* ==== Section des rabais ==== */
 
 h2 {
     font-size: 26px;
     font-weight: bold;
-    margin: 5px 100px 0px;
+    margin: 5px 100px 30px;
 }
 
 h3 {
     font-size: 16px;
     font-weight: bold;
-    margin: 30px 100px 0px;
+    margin: 90px 100px 0px;
 }
 
 h4 {
     font-size: 20px;
     font-weight: bold;
 }
+
+#texte {
+    margin: 0px 100px 0px;
+}
+
+.membre {
+    border: 2px solid white;
+    margin: 20px 100px 20px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.liens_membres {
+    font-size: 20px;
+    color: #121212;
+    text-decoration: none;
+}
+
+
 
 /* style pour les prix en rabais*/
 .rose {
