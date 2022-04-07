@@ -1,3 +1,4 @@
+/* style de base du site Web */
 body {
   margin: 0;
   background-color: #f9f5f1;
@@ -7,27 +8,23 @@ body {
   font-weight: normal;
 }
 
+/* style pour les mots d'accent */
 span {
   color: #E01E64;
   font-family: 'Sniglet', cursive;
   font-size: 28px;
 }
 
+/* marges pour les images */
 img {
   margin: 1px 30px 1px;
 }
 
-#canelle_desc {
-  margin-left: 100px;
-}
 
-/* navigation supérieure */
+/*==== Barre de navigation supérieure ====*/
 
+/* style pour le mot "Produits" du menu */
 #rose {
-  color: #E01E64;
-}
-
-.rose {
   color: #E01E64;
 }
 
@@ -62,10 +59,9 @@ img {
   float: right;
 }
 
-/* Header/image principale */
+/* === Header/image principale === */
 
 .header {
-  /* border: 2px solid white; */
   padding: 15px;
   margin: 5px 100px;
   text-align: center;
@@ -76,6 +72,8 @@ h1 {
   font-size: 28px;
   font-weight: normal;
 }
+
+/* ==== Section des rabais ==== */
 
 h2 {
   font-size: 26px;
@@ -94,9 +92,15 @@ h4 {
   font-weight: bold;
 }
 
+/* style pour les prix en rabais*/
+.rose {
+  color: #E01E64;
+}
+
+/* ==== Section des nouveautes ==== */
+
 .nouveautes {
   display: flex;
-  /* border: 2px solid white; */
   padding: 15px;
   margin: 30px 100px;
   text-align: center;
@@ -107,6 +111,10 @@ h4 {
 .trois_img {
   display: flex;
   margin: 5px 75px;
+}
+
+#canelle_desc {
+  margin-left: 100px;
 }
 
 #alacanelle {
@@ -134,55 +142,40 @@ h4 {
   text-align: center;
 }
 
-/* <!-- footer --> */
+#handle {
+  font-family: 'Sniglet', cursive;
+}
 
-.site-footer {
+/* ==== Footer ====  */
+
+.footer {
+  color: #f9f5f1;
   background-color: #121212;
   padding: 45px 0 20px;
-  font-size: 15px;
-  line-height: 24px;
-  color: #f9f5f1;
-}
-
-.site-footer hr {
-  border-top-color: #f9f5f1;
-  opacity: 0.5
-}
-
-.site-footer hr.small {
-  margin: 20px 0
-}
-
-.site-footer h6 {
-  color: #f9f5f1;
   font-size: 16px;
-  text-transform: uppercase;
-  margin-top: 5px;
-  letter-spacing: 2px
+  font-weight: lighter;
+  line-height: 24px;
 }
 
-.site-footer a {
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul a {
   color: #f9f5f1;
+  text-decoration: none;
+  /* padding: 100px; */
+  margin: 30px;
 }
 
-.footer-links {
-  padding-left: 0;
-  list-style: none
-}
-
-.footer-links li {
-  display: block
-}
-
-.footer-links a {
+hr {
   color: #f9f5f1;
+  opacity: 0.1;
 }
 
-
-.footer-links.inline li {
-  display: inline-block
-}
-
-.copyright-text {
-  margin: 0
+#footertext {
+  margin-left: 100px;
+  text-align: left;
 }
