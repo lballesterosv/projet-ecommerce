@@ -17,7 +17,7 @@ span {
 
 /* marges pour les images */
 img {
-    margin: 1px 30px 1px;
+    margin: 60px 30px 1px;
 }
 
 
@@ -59,22 +59,6 @@ img {
     float: right;
 }
 
-/* === Header/image principale === */
-
-.header {
-    padding: 15px;
-    margin: 5px 100px;
-    text-align: center;
-    color: #121212;
-}
-
-h1 {
-    font-size: 28px;
-    font-weight: normal;
-}
-
-/* ==== Section des rabais ==== */
-
 h2 {
     font-size: 26px;
     font-weight: bold;
@@ -92,35 +76,8 @@ h4 {
     font-weight: bold;
 }
 
-/* style pour les prix en rabais*/
-.rose {
-    color: #E01E64;
-}
 
-/* ==== Section des nouveautes ==== */
-
-.nouveautes {
-    display: flex;
-    padding: 15px;
-    margin: 30px 100px;
-    text-align: center;
-    color: #121212;
-    font-size: 18px;
-}
-
-.trois_img {
-    display: flex;
-    margin: 5px 75px;
-}
-
-#canelle_desc {
-    margin-left: 100px;
-}
-
-#alacanelle {
-    margin-left: 250px;
-}
-
+/* ==== Section des produits ==== */
 .description {
     display: flex;
     margin: 0px 105px 0px;
@@ -128,6 +85,11 @@ h4 {
 
 .crossed {
     text-decoration: line-through;
+}
+
+.trois_img {
+    display: flex;
+    margin: 5px 75px;
 }
 
 #desc_pepites {
@@ -146,13 +108,24 @@ h4 {
     margin-left: 185px;
 }
 
-#insta {
-    text-align: center;
+#desc_epice {
+    margin-left: 210px;
 }
 
-#handle {
-    font-family: 'Sniglet', cursive;
+#desc_caramel {
+    margin-left: 200px;
 }
+
+#desc_vanilla {
+    margin-left: 180px;
+}
+
+#desc_cassonade {
+    margin-left: 210px;
+}
+
+
+
 
 /* ==== Footer ====  */
 
