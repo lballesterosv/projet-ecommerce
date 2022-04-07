@@ -1,23 +1,23 @@
 /* style de base du site Web */
 body {
-  margin: 0;
-  background-color: #f9f5f1;
-  color: #121212;
-  font-family: 'Poppins', sans-serif;
-  font-size: 18px;
-  font-weight: normal;
+    margin: 0;
+    background-color: #f9f5f1;
+    color: #121212;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
 }
 
 /* style pour les mots d'accent */
 span {
-  color: #E01E64;
-  font-family: 'Sniglet', cursive;
-  font-size: 28px;
+    color: #E01E64;
+    font-family: 'Sniglet', cursive;
+    font-size: 28px;
 }
 
 /* marges pour les images */
 img {
-  margin: 1px 30px 1px;
+    margin: 1px 30px 1px;
 }
 
 
@@ -25,173 +25,173 @@ img {
 
 /* style pour le mot "Produits" du menu */
 #rose {
-  color: #E01E64;
+    color: #E01E64;
 }
 
 .topnav {
-  padding: 30px;
-  position: relative;
-  overflow: hidden;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
 }
 
 .topnav a {
-  float: left;
-  color: #121212;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    float: left;
+    color: #121212;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 .topnav a.logo {
-  font-family: 'Sniglet', cursive;
-  font-size: 55px;
+    font-family: 'Sniglet', cursive;
+    font-size: 55px;
 }
 
 .topnav-centered a {
-  float: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .topnav-right {
-  float: right;
+    float: right;
 }
 
 /* === Header/image principale === */
 
 .header {
-  padding: 15px;
-  margin: 5px 100px;
-  text-align: center;
-  color: #121212;
+    padding: 15px;
+    margin: 5px 100px;
+    text-align: center;
+    color: #121212;
 }
 
 h1 {
-  font-size: 28px;
-  font-weight: normal;
+    font-size: 28px;
+    font-weight: normal;
 }
 
 /* ==== Section des rabais ==== */
 
 h2 {
-  font-size: 26px;
-  font-weight: bold;
-  margin: 5px 100px 30px;
+    font-size: 26px;
+    font-weight: bold;
+    margin: 5px 100px 30px;
 }
 
 h3 {
-  font-size: 16px;
-  font-weight: bold;
-  margin: 90px 100px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 90px 100px 0px;
 }
 
 h4 {
-  font-size: 20px;
-  font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 /* style pour les prix en rabais*/
 .rose {
-  color: #E01E64;
+    color: #E01E64;
 }
 
 /* ==== Section des nouveautes ==== */
 
 .nouveautes {
-  display: flex;
-  padding: 15px;
-  margin: 30px 100px;
-  text-align: center;
-  color: #121212;
-  font-size: 18px;
+    display: flex;
+    padding: 15px;
+    margin: 30px 100px;
+    text-align: center;
+    color: #121212;
+    font-size: 18px;
 }
 
 .trois_img {
-  display: flex;
-  margin: 5px 75px;
+    display: flex;
+    margin: 5px 75px;
 }
 
 #canelle_desc {
-  margin-left: 100px;
+    margin-left: 100px;
 }
 
 #alacanelle {
-  margin-left: 250px;
+    margin-left: 250px;
 }
 
 .description {
-  display: flex;
-  margin: 0px 105px 0px;
+    display: flex;
+    margin: 0px 105px 0px;
 }
 
 .crossed {
-  text-decoration: line-through;
+    text-decoration: line-through;
 }
 
 #desc_pepites {
-  margin-left: 150px;
+    margin-left: 150px;
 }
 
 #desc_pistache {
-  margin-left: 115px;
+    margin-left: 115px;
 }
 
 #insta {
-  text-align: center;
+    text-align: center;
 }
 
 #handle {
-  font-family: 'Sniglet', cursive;
+    font-family: 'Sniglet', cursive;
 }
 
 /* ==== Footer ====  */
 
 .footer {
-  color: #f9f5f1;
-  background-color: #121212;
-  padding: 60px 0 30px;
-  line-height: 24px;
+    color: #f9f5f1;
+    background-color: #121212;
+    padding: 60px 0 30px;
+    line-height: 24px;
 }
 
 #footertext {
-  font-size: 16px;
-  margin: 0px 150px 0px;
-  text-align: left;
+    font-size: 16px;
+    margin: 0px 150px 0px;
+    text-align: left;
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 ul a {
-  text-decoration: none;
-  margin: 30px;
-  color: #f9f5f1;
+    text-decoration: none;
+    margin: 30px;
+    color: #f9f5f1;
 }
 
 hr {
-  color: #f9f5f1;
-  opacity: 0.1;
+    color: #f9f5f1;
+    opacity: 0.1;
 }
 
 .Copyright-text {
-  font-size: 12px;
+    font-size: 12px;
 }
 
 #email {
-  border: 1px solid white;
-  padding: 10px 20px 10px;
+    border: 1px solid white;
+    padding: 10px 20px 10px;
 
 }
 
 th {
-  padding: 0px 40px 0px;
+    padding: 0px 40px 0px;
 }
 
 #onoir {
-  color: #121212;
+    color: #121212;
 }
