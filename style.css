@@ -9,22 +9,26 @@ body {
 
 span {
   color: #E01E64;
-  font-family: 'Nerko One', cursive;
-  font-size: 32px;
+  font-family: 'Sniglet', cursive;
+  font-size: 28px;
 }
 
 img {
   margin: 1px 30px 1px;
 }
 
-p {
+#canelle_desc {
   margin: 15px 50px;
   text-align: center;
 }
 
 /* navigation supérieure */
 
-#lien_produits {
+#rose {
+  color: #E01E64;
+}
+
+.rose {
   color: #E01E64;
 }
 
@@ -43,7 +47,7 @@ p {
 }
 
 .topnav a.logo {
-  font-family: 'Nerko One', cursive;
+  font-family: 'Sniglet', cursive;
   font-size: 50px;
 }
 
@@ -86,6 +90,11 @@ h3 {
   margin: 90px 100px 0px;
 }
 
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .nouveautes {
   display: flex;
   /* border: 2px solid white; */
@@ -103,4 +112,21 @@ h3 {
 
 #alacanelle {
   margin-left: 250px;
+}
+
+.description {
+  display: flex;
+  margin: 0px 105px 0px;
+}
+
+.crossed {
+  text-decoration: line-through;
+}
+
+#desc_pepites {
+  margin-left: 150px;
+}
+
+#desc_pistache {
+  margin-left: 115px;
 }
