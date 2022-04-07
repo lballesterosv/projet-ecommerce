@@ -73,7 +73,7 @@ h1 {
     font-weight: normal;
 }
 
-/* <!--====  Descriptif général ainsi que l’historique de l’entreprise ====--> */
+/* ==== Section des rabais ==== */
 
 h2 {
     font-size: 26px;
@@ -92,34 +92,59 @@ h4 {
     font-weight: bold;
 }
 
-#texte {
-    margin: 0px 100px 0px;
+/* style pour les prix en rabais*/
+.rose {
+    color: #E01E64;
 }
 
+/* ==== Section des nouveautes ==== */
 
-/* <!--====  présentation des personnes qui développe le site web ====--> */
-
-#equipe {
-    margin: 30px 0px 30px;
-    /* border: 2px solid red; */
+.nouveautes {
     display: flex;
-    justify-content: space-between;
+    padding: 15px;
+    margin: 30px 100px;
+    text-align: center;
+    color: #121212;
+    font-size: 18px;
 }
 
-.membre {
-    border: 3px solid white;
-    /* margin: 20px 100px 20px; */
-    padding: 20px;
-    width: 250px;
+.trois_img {
+    display: flex;
+    margin: 5px 75px;
+}
+
+#canelle_desc {
+    margin-left: 100px;
+}
+
+#alacanelle {
+    margin-left: 250px;
+}
+
+.description {
+    display: flex;
+    margin: 0px 105px 0px;
+}
+
+.crossed {
+    text-decoration: line-through;
+}
+
+#desc_pepites {
+    margin-left: 150px;
+}
+
+#desc_pistache {
+    margin-left: 115px;
+}
+
+#insta {
     text-align: center;
 }
 
-.liens_membres {
-    font-size: 18px;
-    color: #121212;
-    text-decoration: none;
+#handle {
+    font-family: 'Sniglet', cursive;
 }
-
 
 /* ==== Footer ====  */
 
