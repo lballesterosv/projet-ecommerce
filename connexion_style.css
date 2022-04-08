@@ -6,8 +6,6 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: normal;
-    border-radius: 5px;
-    padding: 10px;
 }
 
 /* style pour les mots d'accent */
@@ -19,7 +17,7 @@ span {
 
 /* marges pour les images */
 img {
-    margin: 30px 70px 40px;
+    margin: 1px 30px 1px;
 }
 
 
@@ -61,7 +59,7 @@ img {
     float: right;
 }
 
-
+/* === Header/image principale === */
 
 .header {
     padding: 15px;
@@ -70,11 +68,12 @@ img {
     color: #121212;
 }
 
-
 h1 {
     font-size: 28px;
     font-weight: normal;
 }
+
+/* ==== Section des rabais ==== */
 
 h2 {
     font-size: 26px;
@@ -93,51 +92,73 @@ h4 {
     font-weight: bold;
 }
 
-/*form*/
+/* style pour les prix en rabais*/
+.rose {
+    color: #E01E64;
+}
 
-* {
-    box-sizing: border-box;
+fieldset {
+    border: 3px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    padding: 30;
+    margin: 60px 75px 75px 450px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.label {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
+    margin-left: 10px;
+    color: #121212;
 }
 
-/* Style inputs */
-input[type=text],
-select,
-textarea {
+#log {
     background-color: #f9f5f1;
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #121212;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
-
-input[type=submit] {
-    background-color: #f9f5f1;
-    padding: 12px 20px;
+    color: #121212;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    padding: 15px 20px;
+    margin: 0 8px 15px;
     border: 1px solid #121212;
     cursor: pointer;
+    width: 520px;
 }
 
-/* Create two columns that float next to eachother */
-.column {
-    float: left;
-    width: 45%;
-    margin-top: 6px;
-    padding: 20px;
+#oublie {
+    margin-left: 10px;
+    color: #E01E64;
 }
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+#pasdecompte {
+    margin-left: 10px;
 }
 
+div a {
+    text-decoration: none;
+    color: #E01E64;
+}
 
-
+.textbox {
+    background-color: #f9f5f1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    padding: 15px 20px;
+    margin: 0 8px 15px;
+    border: 1px solid #121212;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 480px;
+}
 
 
 /* ==== Footer ====  */

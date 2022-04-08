@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexionl</title>
+
+    <!-- ajout image favicon -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+    <!-- import googleFonts 1 - police principale -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- import googleFonts 2 - police secondaire -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sniglet&display=swap" rel="stylesheet">
+
+    <!-- lien fichier css -->
+    <link rel="stylesheet" type="text/css" href="connexion_style.css">
+</head>
+
+<body>
+
+    <!-- ==== Barre de navigation supérieure ==== -->
+    <div class="topnav">
+
+        <!-- lien centré: Logo -->
+        <div class="topnav-centered">
+            <a href="index.html" class="logo">La Biscuiterie</a>
+        </div>
+
+        <!-- Liens alignés à gauche (par défaut) -->
+        <a href="produits.html" id="rose">Produits</a>
+        <a href="presentation.html">À propos</a>
+        <a href="local.html">Local</a>
+        <a href="contact.html">Contact</a>
+
+        <!-- Lien aligné à droite -->
+        <div class="topnav-right">
+            <a href="compte.html">Compte</a>
+        </div>
+    </div>
+
+    <!-- ==== Formulaire de connexion ==== -->
+    <form name="form_connexion" action="" onsubmit="" method="">
+        <fieldset>
+            <h1>Connectez-vous à votre compte</h1>
+            <div>
+                <label for="email" class="label">Email</label> <br>
+                <input type="email" class="textbox" name="email" placeholder="email"> <br>
+                <label for="motdepasse" class="label">Mot de passe</label> <br>
+                <input type="password" class="textbox" name="motdepasse" placeholder="*******"> <br><br>
+                <button id="log">Connexion</button>
+                <a id="oublie" href="#"> Mot de passe oublié?</a></p>
+                <p id="pasdecompte">Vous n'avez pas de compte ? <a href="inscription.html">>S'inscrire</a></p>
+            </div>
+        </fieldset>
+    </form>
+
+
+    <!-- ==== Footer ==== -->
+    <footer class="footer">
+        <div id="footertext">
+            <table>
+                <tr>
+                    <th>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Accueil</a></li><br>
+                            <li><a href="produits.html">Produits</a></li><br>
+                            <li><a href="presentation.html">À<span id="onoir">o</span>propos</a></li><br>
+                        </ul>
+                    </th>
+                    <th>
+                        <ul class="footer-links">
+                            <li><a href="local.html">Local</a></li><br>
+                            <li><a href="contact.html">Contact</a></li><br>
+                            <li><a href="compte.html">Compte</a></li><br>
+                        </ul>
+                    </th>
+
+                    <th>
+                        <div>
+                            <p> OBTENEZ DES NOUVELLES SUR LES BISCUITS, LES OFFRES ET PLUS ENCORE ! </p>
+                            <p id="email"> Entrez votre email ici 🡪 </p>
+                            <p class="Copyright-text" id="pdc">Politique de confidentialité</p>
+                        </div>
+                    </th>
+                    <th>
+                        <ul class="footer-links">
+                            <li><a href="tweeter.html">Tweeter</a></li><br>
+                            <li><a href="instagram.html">Instagram</a></li><br>
+                            <li><a href="facebook.html">Facebook</a>
+                            </li><br>
+                        </ul>
+                </tr>
+            </table>
+            <hr>
+            <p class="Copyright-text"> &copy; La Biscuiterie 2022 Tous droits réservés.</p>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
