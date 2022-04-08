@@ -113,14 +113,6 @@ h4 {
     margin: 5px 75px;
 }
 
-#canelle_desc {
-    margin-left: 100px;
-}
-
-#alacanelle {
-    margin-left: 250px;
-}
-
 .description {
     display: flex;
     margin: 0px 105px 0px;
@@ -128,6 +120,14 @@ h4 {
 
 .crossed {
     text-decoration: line-through;
+}
+
+#canelle_desc {
+    margin-left: 100px;
+}
+
+#alacanelle {
+    margin-left: 250px;
 }
 
 #desc_pepites {

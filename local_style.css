@@ -64,7 +64,7 @@ img {
     float: right;
 }
 
-/* === Header/image principale === */
+/* === Titres et Google map === */
 
 #map {
     margin: 30px 500px 30px;
@@ -99,64 +99,6 @@ h3 {
 
 }
 
-h4 {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-/* style pour les prix en rabais*/
-.rose {
-    color: #E01E64;
-}
-
-/* ==== Section des nouveautes ==== */
-
-.nouveautes {
-    display: flex;
-    padding: 15px;
-    margin: 30px 100px;
-    text-align: center;
-    color: #121212;
-    font-size: 18px;
-}
-
-.trois_img {
-    display: flex;
-    margin: 5px 75px;
-}
-
-#canelle_desc {
-    margin-left: 100px;
-}
-
-#alacanelle {
-    margin-left: 250px;
-}
-
-.description {
-    display: flex;
-    margin: 0px 105px 0px;
-}
-
-.crossed {
-    text-decoration: line-through;
-}
-
-#desc_pepites {
-    margin-left: 150px;
-}
-
-#desc_pistache {
-    margin-left: 115px;
-}
-
-#insta {
-    text-align: center;
-}
-
-#handle {
-    font-family: 'Sniglet', cursive;
-}
 
 /* ==== Footer ====  */
 

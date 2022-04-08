@@ -61,7 +61,7 @@ img {
     float: right;
 }
 
-
+/*==== Titre ====*/
 
 .header {
     padding: 15px;
@@ -76,24 +76,7 @@ h1 {
     font-weight: normal;
 }
 
-h2 {
-    font-size: 26px;
-    font-weight: bold;
-    margin: 5px 100px 30px;
-}
-
-h3 {
-    font-size: 16px;
-    font-weight: bold;
-    margin: 90px 100px 0px;
-}
-
-h4 {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-/*form*/
+/*==== Formulaire ====*/
 
 * {
     box-sizing: border-box;
@@ -121,7 +104,6 @@ input[type=submit] {
     cursor: pointer;
 }
 
-/* Create two columns that float next to eachother */
 .column {
     float: left;
     width: 45%;
@@ -129,16 +111,11 @@ input[type=submit] {
     padding: 20px;
 }
 
-/* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
-
-
-
-
 
 /* ==== Footer ====  */
 

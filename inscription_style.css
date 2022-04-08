@@ -59,43 +59,7 @@ img {
     float: right;
 }
 
-/* === Header/image principale === */
-
-.header {
-    padding: 15px;
-    margin: 5px 100px;
-    text-align: center;
-    color: #121212;
-}
-
-h1 {
-    font-size: 28px;
-    font-weight: normal;
-}
-
-/* ==== Section des rabais ==== */
-
-h2 {
-    font-size: 26px;
-    font-weight: bold;
-    margin: 5px 100px 30px;
-}
-
-h3 {
-    font-size: 16px;
-    font-weight: bold;
-    margin: 90px 100px 0px;
-}
-
-h4 {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-/* style pour les prix en rabais*/
-.rose {
-    color: #E01E64;
-}
+/* === Formulaire === */
 
 fieldset {
     border: 3px solid white;
