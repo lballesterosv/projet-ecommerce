@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Connexion</title>
+    <title>Inscription</title>
 
     <!-- ajout image favicon -->
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
@@ -21,7 +21,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Sniglet&display=swap" rel="stylesheet">
 
     <!-- lien fichier css -->
-    <link rel="stylesheet" type="text/css" href="connexion_style.css">
+    <link rel="stylesheet" type="text/css" href="inscription_style.css">
 </head>
 
 <body>
@@ -47,17 +47,18 @@
     </div>
 
     <!-- ==== Formulaire de connexion ==== -->
-    <form name="form_connexion" action="" onsubmit="" method="">
+    <form name="form_inscription" action="" onsubmit="" method="">
         <fieldset>
-            <h1>Connectez-vous à votre compte</h1>
+            <h1>Merci de créer un compte</h1>
             <div>
+                <label for="nom" class="label">Nom</label> <br>
+                <input type="text" class="textbox" name="nom" placeholder="nom"> <br>
                 <label for="email" class="label">Email</label> <br>
                 <input type="email" class="textbox" name="email" placeholder="email"> <br>
                 <label for="motdepasse" class="label">Mot de passe</label> <br>
                 <input type="password" class="textbox" name="motdepasse" placeholder="*******"> <br><br>
-                <button id="log">Connexion</button>
-                <a id="oublie" href="#"> Mot de passe oublié?</a></p>
-                <p id="pasdecompte">Vous n'avez pas de compte ? <a href="inscription.html">>S'inscrire</a></p>
+                <button id="log">Inscription</button>
+
             </div>
         </fieldset>
     </form>
